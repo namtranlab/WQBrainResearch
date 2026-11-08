@@ -1,0 +1,14 @@
+{
+  "region": "USA",
+  "universe": "TOPSP500",
+  "instrumentType": "EQUITY",
+  "delay": 1,
+  "decay": 0,
+  "neutralization": "INDUSTRY",
+  "truncation": 0.08,
+  "pasteurization": "ON",
+  "unitHandling": "VERIFY",
+  "nanHandling": "OFF",
+  "language": "FASTEXPR",
+  "visualization": false
+}

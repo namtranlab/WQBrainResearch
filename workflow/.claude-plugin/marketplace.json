@@ -1,0 +1,17 @@
+{
+  "name": "wq",
+  "owner": {
+    "name": "Nam Tran",
+    "email": "vannam.tran@ntu.edu.sg"
+  },
+  "metadata": {
+    "description": "Claude Code plugin marketplace for the wq WorldQuant BRAIN research workflow"
+  },
+  "plugins": [
+    {
+      "name": "wq",
+      "source": "./",
+      "description": "WorldQuant BRAIN alpha research: setup, generate, improve, submit."
+    }
+  ]
+}

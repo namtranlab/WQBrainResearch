@@ -1,0 +1,13 @@
+.env
+.env.*
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.db
+*.db.lock
+*.tmp
+results/
+WQBrainSim/data/
+WQBrainSim/test_run/example-alpha-result.json
+.claude/settings.local.json

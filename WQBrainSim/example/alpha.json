@@ -1,0 +1,7 @@
+{
+  "expression": "-ts_rank(fn_liab_fair_val_l1_a,252)",
+  "description": {
+    "hypothesis": "\"Fair value accounting\" aims to measure and report on-going valuations of assets and liabilities. A recent increase in the fair value of liabilities may indicate a higher cost to be borne by the company in the future. This may deteriorate the company's financial health, potentially leading to lower profitability or financial distress.",
+    "implementation": "Using ts_rank() operator, sell stocks when there is an increase in the fair value of liabilities within a year using fundamental data."
+  }
+}

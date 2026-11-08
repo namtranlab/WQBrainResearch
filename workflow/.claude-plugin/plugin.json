@@ -1,0 +1,10 @@
+{
+  "name": "wq",
+  "description": "Iterative WorldQuant BRAIN alpha research through research.py: set up, generate new alphas, improve promising ones through settings and expressions, keep a persistent experiment history, and submit only alphas that clear the enforced submission pipeline. One orchestrator skill, one skill per step.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Nam Tran",
+    "email": "vannam.tran@ntu.edu.sg"
+  }
+}

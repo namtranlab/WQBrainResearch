@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run --project WQBrainSim python research.py:*)",
+      "Bash(uv run --project WQBrainSim wqbrainsim operators:*)",
+      "Bash(uv run --project WQBrainSim wqbrainsim datasets:*)",
+      "Bash(uv run --project WQBrainSim wqbrainsim datafields:*)"
+    ],
+    "deny": [
+      "Read(**/.env)",
+      "Bash(*.env*)",
+      "Edit(/WQBrainSim/**)",
+      "Edit(/research.py)",
+      "Edit(/.claude/**)",
+      "Edit(/results/experiment_state.json)",
+      "Edit(/results/successful_alphas.json)",
+      "Edit(/results/experiments.jsonl)",
+      "Edit(/results/submission_pool/**)",
+      "Bash(*wqbrainsim run*)",
+      "Bash(*wqbrainsim resume*)",
+      "Bash(*wqbrainsim submit*)",
+      "Bash(*core.__main__*)",
+      "Bash(*submit_alpha*)",
+      "Bash(*import core*)",
+      "Bash(*from core*)",
+      "Bash(*sqlite3*)",
+      "Bash(*rm *results*)"
+    ]
+  }
+}
