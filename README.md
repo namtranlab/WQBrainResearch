@@ -66,8 +66,6 @@ For the unattended mode, see [`HOWTO.md`](HOWTO.md). For the full story, see [`h
 - Only alphas graded GOOD or better are submitted, and at most 3 per day.
 - The agent cannot read `.env`, edit the code or result records, or call `run`, `resume` or `submit` directly. Everything goes through `research.py`.
 
-These defaults reduce risk. They do not remove it.
-
 ## Disclaimer
 
 - **Not official.** This project is an independent, personal tool. It is not a product of WorldQuant, and WorldQuant does not review, endorse or support it. "WorldQuant" and "BRAIN" are names of their respective owners and are used here only to describe compatibility.
