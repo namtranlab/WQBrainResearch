@@ -58,7 +58,7 @@ Inside Claude Code:
 
 The first `/wq` runs setup and stops for your approval. After that, it loops on its own. Type `/wq` again at any time to resume.
 
-For the unattended mode, see [`HOWTO.md`](HOWTO.md). For the full story, see [`TUTORIAL.md`](TUTORIAL.md).
+For the unattended mode, see [`HOWTO.md`](HOWTO.md).
 
 ## Safety defaults
 
